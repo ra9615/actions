@@ -31,7 +31,6 @@ jobs:
     steps:
     - name: Run tests
       run: mvn test
-      working-directory: ./
 
   deploy:
     needs: test
